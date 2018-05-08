@@ -1,46 +1,83 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
 
-    <body>
-        
-        <div>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+</head>
 
-            <section class="myheader">
-                <div class="boxed1">
-                    <div class="insideboxed1left">
-                        <h1 id="myname">Josh Daniels</h1>
+<body>
+
+    <div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarborder">
+            <a class="navbar-brand" href="index.html">
+                <div class="insideboxed1left">
+                    <h1 id="myname">Josh Daniels</h1>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-md-12">
+                    <div id="headeraboutme">
+                        About Me
                     </div>
-                    <div class="insideboxed1right">
-                            <a id=headercontact href="contact.html">Contact</a>
-                            <a id=headerportfolio href="portfolio.html">Portfolio</a>
-                            <a id=headerabout href="index.html">About</a>
+                </div>
+                <div class="row">
+                    <div class="media">
+                        <img class="align-self-start mr-3" src="assets/images/hiking.jpg" alt="picture of me hiking">
+                        <div class="media-body">
+                            <p class="myaboutme">I enjoy hiking with my dog Blue and playing music. I've lived in Phoenix for almost three years
+                                this October. I moved here from Brooklyn, NY but have lived in a lot of other states. I also
+                                lived in Wiesbaden, Germany for seven years. I love to travel and would love to live in Japan
+                                for a couple years. </p>
                         </div>
-                </div>
-            </section>
-
-            <section>
-                <div class="boxed3">
-                    <h1 id="bodyaboutme">About Me</h1>
-                    <hr/>
-                    <img src="assets/images/hiking.jpg" alt="picture of me hiking">
-                    <p class="myaboutme"> I enjoy hiking with my dog Blue and playing music. I've lived in Phoenix for almost three years this October. I moved here from Brooklyn, NY but have lived in a lot of other states. I also lived in Wiesbaden, Germany for seven years. I love to travel and would love to live in Japan for a couple years.
-                                         </p>
-                </div>
-            </section>
-
-            <section>
-                <div class="tealfooter">
-                    <div class="footer">
-                        <h4 id="myfooter">Copyright ©</h4>
                     </div>
                 </div>
-            </section>
-
+            </div>
         </div>
-    </body>
+    </div>
+    </div>
+    </section>
+
+    <section>
+        <div class="tealfooter">
+            <div class="footer">
+                <h4 id="myfooter">Copyright ©</h4>
+            </div>
+        </div>
+    </section>
+
+    </div>
+</body>
+
 </html>
