@@ -1,46 +1,19 @@
 body, html{
-  max-height: 960px;
   background-image:url("../images/light-grey-terrazzo.png");
-  z-index: 0;
-  margin: 0;
-  padding: 0;
 }
 
-.myheader {
-  background-color: #ffffff;
-  height:78px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: #cccccc;
-}
+
 
 #myname {
-  position: relative;
   text-align: center;
   color: white;
   background-color: #4aaaa5;
-  padding: 24px 10px 24px 10px;
+
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 28px;
-  margin: 0px 50px 0px 150px;
-  z-index: 3;
   border-bottom: solid;
   border-color: #dddddd;
   border-width: 1px;
-}
-
-
-.insideboxed1right {
-  width: 25%;
-  padding: 32px 10px 0px 0px;
-  text-align: center;
-  z-index: 2;
-  margin-right: 200px;
-  float: right;
 }
 
 a:link {
@@ -68,47 +41,6 @@ a:active {
   text-decoration: underline;
 }
 
-#headercontact {
-  float: right;
-  width: 20%;
-  line-height: 15px;
-  border-left: solid;
-  border-width: 1px;
-  border-color: #cccccc;
-  
-}
-
-#headerportfolio {
-  float: right;
-  width: 20%;
-  line-height: 15px;
-  border-left: solid;
-  border-width: 1px;
-  border-color: #cccccc;
-}
-
-#headerabout {
-  float: right;
-  width: 20%;
-  line-height: 15px;
-  border-left: none;
-  border-width: 1px;
-  width: 20%;
-}
-
-.boxed3 {
-    background-color: #ffffff;
-    margin: 120px 200px 200px 200px;
-    padding: 20px 20px 100px 20px;
-    border: solid;
-    border-color: #dddddd;
-    border-width: 1px;
-
-}
-
-.navbar {
-  height: 80px;
-}
 
 #navbarborder {
   border-bottom: solid;
@@ -124,36 +56,20 @@ a:active {
   margin: 2% 30% 10% 30%;
 }
 
-.row { 
-  padding: 1%;
-}
-
 #headeraboutme {
 
   color: #4aaaa5;
   font-size: 32px;
   font-family: Georgia, Times, "Times New Roman", serif;
-  padding: 10px;
   border-bottom: solid;
   border-bottom-color: #777777;
   border-width: 1px;
 
 }
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #777777;
-    margin: 1em 0;
-    padding: 0;
-    z-index: 4;
-}
-
 img {
   max-height: 200px;
   max-width: 200px;
-  margin: 10px;
 }
 
 .myaboutme {
@@ -162,86 +78,11 @@ img {
   line-height: 30px;
 }
 
-
-.textincontact {
-  font-size: 18px;
-  padding: 0px 0px 22px 0px;
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  color: #777777;
-}
-
-input[type=info] {
-  width: 100%;
-  padding: 6px 20px;
-  margin: 5px 0;
-  box-sizing: border-box;
-}
-
-input[type=text] {
-  width: 100%;
-  padding: 50px 20px;
-  margin: 5px 0;
-  box-sizing: border-box;
-}
-
-h5 {
-  margin-left: 0px;
-  padding: 5px 10px 5px 10px;
-  color: white;
-  font-size: 15px;
-  width: 50px;
-  text-align: center;
-  background-color: #4aaaa5;
-  float: left;
-  z-index: 2;
-}
-
-.boxed4 {
-  background-color: #ffffff;
-  margin: 120px 400px 200px 400px;
-  padding: 20px;
-  height: 600px;
-  border: solid;
-  border-color: #dddddd;
-  border-width: 1px;
-}
-
 .groupofphotos {
   height: 100%;
   color:black;
   position: relative;
   text-align: center;
-}
-
-.castlephoto {
-  float: left;
-}
-
-.castle {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-.guitarphoto {
-  padding: 0px 0px 0px 0px;
-
-}
-
-.redwheelphoto {
-  float: left;
-  padding: 20px 0px 0px 0px;
-  left: 0px;
-}
-
-.mixerphoto {
-  float: left;
-  top: 0px;
-}
-
-.pizzaphoto {
- float: left;
- padding: 20px 0px 0px 0px;
 }
 
 .tealfooter {
